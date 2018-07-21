@@ -1,0 +1,549 @@
+body {
+font-family: 'Playfair Display', serif;
+}
+
+/* Header */
+header {
+display: flex;
+align-items: center;
+z-index: 1;
+background-color: #006600;
+height: 64px;
+width: 100%;
+}
+
+.logo {
+display: flex;
+align-items: center;
+flex-grow: 1;
+padding-left: 24px;
+}
+
+.Colmar {
+color: darkgrey;
+font-size: 32px;
+}
+
+.Academy {
+color: lightgrey;
+font-size: 32px;
+}
+
+.Menu{
+padding-right: 16px;
+}
+
+header nav{
+margin-right: 24px;
+}
+
+.Menu:hover {
+color: white;
+transition-duration: 1.5s;
+transition-delay: .3s;
+}
+
+.sign:hover {
+color: white;
+transition-duration: 1.5s;
+transition-delay: .3s;
+}
+
+@media only screen and (min-width: 481px) {
+.icons{
+display: none;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.Colmar,
+.Academy {
+display: none;
+}
+
+.Menu,
+.sign,
+.logo {
+display: none;
+}
+
+.icon-container {
+display: flex;
+}
+
+.the-icons {
+width: 33%;
+padding-top: 15px;
+}
+
+.icons{
+width:50%;
+}
+
+nav {
+width: 100%;
+margin:0px 55px;
+}
+}
+
+/*Banner*/
+.Banner{
+background-color: lightgrey;
+display: flex;
+justify-content: flex-start;
+width:100%;
+margin: 0px;
+}
+
+.left {
+width: 60%;
+padding: 32px 24px;
+}
+
+img.students {
+width:100%;
+}
+
+.right {
+width: 40%;
+color: #737373;
+padding: 42px, 0px;
+}
+
+.right h1{
+font-size: 52px;
+padding-top: 86px;
+padding-right: 50px;
+}
+
+.right h2{
+font-size: 30px;
+}
+
+.start h3{
+margin: 0px 0px;
+font-size: 28px;
+}
+
+.start {
+background-color: #006600;
+color: white;
+width: 75%;
+padding-top: 8px;
+padding-bottom: 8px;
+text-align: center;
+}
+
+.start:hover {
+color: #737373;
+background-color: white;
+transition-duration: 1.5s;
+transition-delay: .3s;
+}
+
+@media only screen and (max-width: 480px) {
+.Banner{
+flex-wrap: wrap;
+}
+
+.left{
+width: 100%;
+padding: 0px 0px;
+}
+
+.right {
+padding: 0px 16px 32px 16px;
+width: 100%;
+}
+
+.right h1,
+.right h2,
+.right h3 {
+margin: 0px 0px;
+}
+
+.right h1 {
+padding: 32px 0px 32px 0px;
+font-size: 44px;
+}
+
+.start {
+margin-top: 24px;
+width: 100%;
+}
+}
+
+/*Information Main */
+.main{
+display: flex;
+justify-content: flex-start;
+width:100%;
+}
+
+.information {
+padding: 32px 24px;
+width: 60%;
+}
+
+img.reading {
+width: 100%;
+}
+
+.practice {
+width: 100%;
+}
+
+.practice h1,
+.practice h5,
+.practice h6{
+margin: 0px 0px;
+color: #737373;
+}
+
+.practice h1{
+padding-bottom: 24px;
+font-size: 45px;
+}
+
+.practice h5{
+font-size: 22px;
+}
+
+.practice h6{
+padding: 32px 0px;
+font-size: 22px;
+}
+
+.flex-container{
+width: 40%;
+}
+
+.box3{
+background: #006600;
+color: lightgrey;
+}
+
+.box1,
+.box2,
+.box3 {
+width: 100%;
+}
+
+.pictures {
+width:35%;
+height: auto;
+padding: 16px 16px;
+}
+
+img.pix {
+width: 100%;
+height: 100%;
+}
+
+.text h3,
+.text h4 {
+margin: 0px 0px;
+}
+
+.text h4{
+padding-top: 8px}
+}
+
+.box3{
+background-color: lightgrey;
+}
+.read-more h4 {
+color: blue;
+}
+
+.read-more h4:hover {
+color: silver;
+transition-duration: 1.5s;
+transition-delay: .3s;
+}
+
+
+@media only screen and (min-width: 481px) {
+.pixA {
+display: none;
+}
+
+.box1,
+.box2,
+.box3 {
+display: flex;
+border: 1px solid lightgrey;
+}
+
+.text {
+padding-top: 60px;
+width: 65%
+}
+}
+
+@media only screen and (max-width: 480px) {
+.information{
+display: none;
+padding: 0px 0px;
+}
+
+.flex-container{
+width: 100%;
+}
+
+.box1,
+.box2 {
+padding: 16px 0px 48px 0px;
+}
+
+.box3 {
+padding: 16px 0px 32px 0px;
+}
+
+.pictures{
+width: 100%;
+padding: 0px 16px 0px 16px;
+}
+
+.pix {
+display: none;
+}
+
+img.pixA{
+width: 95%;
+}
+
+.text {
+width: 100%;
+padding: 64px 16px 0px 16px;
+}
+
+.text h3 {
+font-size: 28px;
+}
+
+.text h4 {
+font-size: 24px;
+}
+}
+
+/*Start learning */
+.learning {
+background-color: #006600;
+width: 88%;
+padding: 0px 72px 0px 72px;
+text-align: center;
+}
+.learning h2{
+font-size: 45px;
+color: lightgrey;
+}
+
+.course-container {
+width: 100%;
+background-color: #006600;
+}
+
+.course-row{
+display: flex;
+padding-bottom: 32px;
+}
+
+.courses,
+.courses1 {
+background-color: white;
+width: 33%;
+}
+
+.courses1{
+margin: 0 32px 0 32px;
+}
+.courses-media {
+height: auto;
+}
+
+.courses1 img,
+.courses img{
+height: 100%;
+width: 100%;
+}
+
+.courses1 h3,
+.courses1 h4,
+.courses1 h5,
+.courses h3,
+.courses h4,
+.courses h5 {
+margin: 0px 0px;
+}
+
+.courses1 h4,
+.courses h4 {
+padding: 8px 0px;
+}
+
+.courses-text{
+padding: 16px 16px 24px 16px;
+}
+
+.courses h3,
+.courses1 h3 {
+font-weight: strong;
+font-size: 25px;
+}
+
+.course-row h4,
+.course-row h5 {
+font-size: 15px;
+}
+
+.learning h2,
+.thesis h2 {
+padding: 32px 0px;
+margin: 0px 0px;
+}
+
+@media only screen and (min-width: 481px) {
+.learningA {
+display: none;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.learning{
+display: none;
+}
+
+.learningA{
+padding: 32px 16px;
+border: 1px solid lightgrey;
+}
+
+.learningA-box {
+width: 100%;
+background-color: #006600;
+color: lightgrey;
+}
+
+.learningA h1{
+padding-bottom: 16px;
+text-align: center;
+}
+
+.learningA-box h2 {
+margin: 0px 0px 8px 0px;
+padding: 16px 0px 24px 16px;
+}
+}
+
+/*Thesis exhibit*/
+.thesis {
+text-align: center;
+width: 100%;
+}
+
+.thesis h2 {
+font-size: 45px;
+}
+
+.thesis-container{
+width: 100%;
+display: flex;
+}
+
+.left-side{
+width: 60%;
+margin-left: 24px;
+}
+
+.video-container {
+width: 100%;
+}
+
+.right-side {
+width: 40%;
+padding-left: 24px;
+}
+
+.rightbox1,
+.rightbox2 {
+display: flex;
+}
+
+.rightbox1 {
+background-color: #006600;
+color: lightgrey;
+}
+
+img .right-pix {
+width: 100%;
+height: auto;
+}
+
+.right-pix{
+padding: 16px 16px;
+width: 35%;
+height: 35%;
+}
+
+.right-box-text {
+width: 65%;
+padding-top: 42px;
+}
+
+@media only screen and (max-width: 480px) {
+.video-text,
+.right-side {
+display: none;
+}
+
+.thesis h2 {
+padding: 32px 0px 16px 0px;
+}
+
+.left-side {
+width: 100%;
+margin: 0px 0px;
+padding-bottom: 24px;
+}
+}
+
+/*Footer*/
+footer {
+display: flex;
+align-items: center;
+z-index: 1;
+width: 100%;
+}
+
+.copyright {
+flex-grow: 1;
+padding-top: 16px;
+}
+
+.copy {
+margin: 0px 0px 0px 24px;
+}
+
+.terms {
+padding-right: 10px;
+}
+
+.terms:hover {
+color: red;
+transition-duration: 1.5s;
+transition-delay: .3s;
+}
+
+@media only screen and (max-width: 480px) {
+footer {
+display: block;
+}
+
+.copy {padding-bottom: 16px
+}
+
+.terms {
+display: none;
+}
+}
